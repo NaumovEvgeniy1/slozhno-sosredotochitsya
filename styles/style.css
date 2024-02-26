@@ -52,7 +52,10 @@
 /* Стилизация rec индикатора */
 
 .rec__decor {
-  position: absolute;
+  position: relative;
+  max-width: fit-content;
+  text-align: end;
+  justify-self: end;
   visibility: var(--rec-decor-visibility, visible);
   display: flex;
   align-items: center;
